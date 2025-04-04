@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd846065e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certificate</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Anshul Baghel</span> <br> From Delhi!</h1>
+            </div>
+        </div>
+    </div>
+    <!----------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/2nd-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p id="about-c"><b>I am a B.Tech computer science engineering student
+                            with the passion for coding and web development.
+                            I thrive in collaborative environment and aim to
+                            apply my technical skills to real world projects
+                            while continuously learning and growing in the tech field.</b></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="ss">
+                            <li class="ss"><span class="ss">Frontend</span><br>HTML/CSS/JS/ReactJS/BootStrap/<br>TalwindCSS/NPM</li>
+                            <li class="ss"><span class="ss">Backend</span><br>NodeJS/ExpessJs/RestAPI's</li>
+                            <li class="ss"><span class="ss">DataBases</span><br>MySQL/MongoDB</li>
+                            <li class="ss"><span class="ss">Programming Language</span><br>Java/Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul class="ss">
+                            <li class="ss"><span class="ss">Frontend Developer Intern<br>7/2024-9/2024</span><br>National Informatics Center
+                                (Govt.OF India)</li>
+                            <li class="ss"><span class="ss">Web Developer Trainee <br>01/2023-2/2023</span><br>Netcamp Solutions Private
+                                Limited</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul class="ss">
+                            <li class="ss"><span class="ss">SBBM.Government Sarvodaya Vidhalaya,Delhi
+                                    <br>2018-2021</span><br>INTERMEDIATE(PCM)+CS: 87.4%<br>HIGHSCHOOL: 82%</li>
+                            <li class="ss"><span class="ss">Raj Kumar Institute of Technology,Ghaziabad <br>09/2021-Present
+                                </span><br><b>Bachelor of Technology:</b>Computer Science and Engineeing (7.76)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Successfully completed the Delta Full Stack Web Development Course from APNA College, gaining hands-on experience in React, Node.js, JavaScript, CSS, and HTML. Developed dynamic web applications with modern technologies, enhancing my skills in full-stack development. </p>
+                    <a href="https://drive.google.com/file/d/1_oYZM6JKmRPaoqir51KLY1K1YAjy_gll/view?usp=drive_link">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript Basics</h2>
+                    <p>I successfully completed the "JavaScript Basics" course from the University of California, Davis, through Coursera on May 27, 2023. This online non-credit program provided me with a strong foundation in JavaScript programming, enhancing my web development skills.</p>
+                    <a href="https://drive.google.com/file/d/1_mocn_HPdz1I6Ov-nAHMdDn0jOXEW20a/view?usp=drive_link">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management System</h2>
+                    <p>I successfully completed the "Data Base Management System" course from IIT Kharagpur through NPTEL, achieving a consolidated score of 79% in Jul-Sep 2024. This 8-week program, part of the Swayam initiative by the Government of India, equipped me with essential skills in database management and system design.</p>
+                    <a href="https://drive.google.com/file/d/1_RBKbiBg1r0t6JWBv3OVEoxm-Sa7xs6_/view?usp=drive_link">Learn more</a>
+                </div>
+                <div class="service-item hidden">
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Programming In Python</h2>
+                    <p>I successfully completed the "Programming in Python" course authorized by Meta and offered through Coursera on January 14, 2023. This online non-credit program provided me with a solid foundation in Python programming, enhancing my skills in software development.</p>
+                    <a href="https://drive.google.com/file/d/1_gKcbzUlTwhlzEa6CV9p-r36o2zZckp9/view?usp=sharing">Learn more</a>
+                </div>
+                <div class="service-item hidden">
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python for Data Science, AI & Development</h2>
+                    <p>I successfully completed the "Python for Data Science, AI & Development" course authorized by IBM and offered through Coursera on April 27, 2023. This online non-credit program equipped me with essential Python skills for data science, AI, and software development applications.</p>
+                    <a href="https://drive.google.com/file/d/1_jOyXehbgmae_Vt8cHuZvfJIKzWh7ryy/view?usp=sharing">Learn more</a>
+                </div>
+                <div class="service-item hidden">
+                    <i class="fa-brands fa-python"></i>
+                    <h2>The Joy of Computing Using Python</h2>
+                    <p>I successfully completed the 12-week NPTEL online certification course "The Joy of Computing Using Python" from IIT Madras, achieving an elite score of 72%. The course, conducted from July to October 2024, enhanced my programming skills through hands-on Python assignments and a proctored exam.</p>
+                    <a href="https://drive.google.com/file/d/1__ldQeXVi9bX9VntFTuy4ONKWwrrsYkz/view?usp=sharing">Learn more</a>
+                </div>
+                <div class="service-item hidden">
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android with Core Java</h2>
+                    <p>I completed the Certificate in Android with Core Java from Netcamp Solutions Private Limited, mastering Android development and Java programming concepts. The training, held from 16th January to 5th February 2023, equipped me with practical skills for building Android applications.</p>
+                    <a href="https://drive.google.com/file/d/1v-Xgfiuw4QFLc5bWP0o6AXpkb2_Riekc/view?usp=sharing">Learn more</a>
+                </div>
+                <div class="service-item hidden">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h2>Network Management and Web Development</h2>
+                    <p>I earned a Certificate in Network Management and Web Development from Netcamp Solutions Private Limited, gaining expertise in networking and web technologies. The training, conducted from 16th January to 5th February 2023, provided hands-on experience in managing networks and developing web solutions.</p>
+                    <a href="https://drive.google.com/file/d/1v0Wa08_aZATDUlb7J2hNGtmoc5sDCgrY/view?usp=drive_link">Learn more</a>
+                </div>
+            </div>
+            <a href="#" class="btn" id="services-see-more">See More</a>
+        </div>
+    </div>
+    <!----------Portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/GoDrive.png">
+                    <div class="layer">
+                        <h3>BookDrive App</h3>
+                        <p>Experience seamless and reliable rides with our BookDrive – your perfect travel companion at your fingertips! From quick pickups to hassle-free payments, our BookDrive offers a smooth and efficient ride-hailing experience.</p>
+                        <a href="https://github.com/anshulBL07/BookDrive-Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ResReq.png">
+                    <div class="layer">
+                        <h3>Request Random People Api Website</h3>
+                        <p>Instantly connect with random people across the world using our API – seamless, fun, and engaging!Build your own social experience with our Random People API, enabling real-time global connections with ease.</p>
+                        <a href="https://github.com/anshulBL07/User-Reqres-Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/SimonSay.png">
+                    <div class="layer">
+                        <h3>Simon Say Game</h3>
+                        <p>Test your memory and reflexes with the classic Simon Says game – follow the pattern and beat the challenge! Our Simon Says game project brings fun and interactive gameplay with engaging animations and increasing difficulty.</p>
+                        <a href="https://github.com/anshulBL07/Simon-Say-Game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work hidden">
+                    <img src="images/Cancer.png">
+                    <div class="layer">
+                        <h3>AI Based Blood Cancer Stage Prediction Model</h3>
+                        <p>Blood Cancer Detection Using Machine Learning uses a CNN (Convolutional Neural Network) to classify blood cell images as cancerous or non-cancerous. The model is trained on a dataset of microscopic blood cell images, where it learns patterns to detect cancer at an early stage.</p>
+                        <a href="https://drive.google.com/file/d/1wO1VO32DNMGWXvy4TM0nDmyVRHuOiktd/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn" id="portfolio-see-more">See More</a>
+        </div>
+    </div>
+    <!----------Contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> anshulbaghel0007@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9818921172</p>
+                    <br>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/anshul.baghel.12764"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/anshul-baghel-3757642b2/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/radhe_malhotra2/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/anshulBL07"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/u/AnshulBghel07/"><i class="fa-brands fa-leetcode"></i></a>
+                    </div>
+                    <a href="images/Anshul CV resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Anshul Baghel <i class="fa-solid fa-face-laugh-wink"></i>.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyC4Y950BP66f0vqYUUe_5Ufq2OqF4pgPYvG9KS3AdQZom7V3YViCIa8KTlpxSjYtPc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyC4Y950BP66f0vqYUUe_5Ufq2OqF4pgPYvG9KS3AdQZom7V3YViCIa8KTlpxSjYtPc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    
+    <!-- New Script for See More Functionality -->
+    <script>
+        document.getElementById('services-see-more').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelectorAll('#services .service-item.hidden').forEach(item => {
+                item.classList.remove('hidden');
+            });
+            this.style.display = 'none'; // Hide button after clicking
+        });
+
+        document.getElementById('portfolio-see-more').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelectorAll('#portfolio .work.hidden').forEach(item => {
+                item.classList.remove('hidden');
+            });
+            this.style.display = 'none'; // Hide button after clicking
+        });
+    </script>
+</body>
+
+</html>
